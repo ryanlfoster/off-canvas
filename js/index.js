@@ -15,3 +15,12 @@ $('#menu').click(function(event) {
     $('#main-container').removeClass('active');
   }
 });
+
+$('li').click(function(event) {
+  if($('#nav-container').hasClass('active') && event.target.tagName == 'LI') {
+    $('#nav-container').transition({x:'-100%'}, 200, 'ease');
+    $('#main-container').transition({x:'0%'}, 200, 'ease');
+    $('#main-container').addClass('active');
+    $('#nav-container').removeClass('active');
+  }
+});

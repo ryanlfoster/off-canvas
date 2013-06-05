@@ -23,6 +23,17 @@ div {
   background-color: #303030;
   width: 100%; }
 
+#nav ul {
+  list-style-type: none;
+  padding-top: 20px; }
+  #nav ul li {
+    color: #fff;
+    font-size: 1.2em;
+    border-bottom: 1px solid #1e1e1e;
+    padding: 0 18px 13px 18px; }
+  #nav ul li + li {
+    padding-top: 13px; }
+
 /*
  * Main
  */

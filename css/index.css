@@ -30,3 +30,13 @@ div {
   height: 100%;
   -webkit-transform: translate(65%, 0px);
   width: 100%; }
+
+#main header {
+  padding: 18px; }
+  #main header #menu {
+    display: inline-block;
+    vertical-align: top; }
+  #main header h1 {
+    font-size: 1.35em;
+    display: inline-block;
+    vertical-align: top; }
